@@ -6,6 +6,8 @@
  machine:
   environment:
     foo: tralala
+    post:
+      - pip install --upgrade pip
  
  test:
    override:
