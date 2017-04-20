@@ -2,6 +2,11 @@
    override:
      - echo "Add any bash commands you want here"
      - echo "Perform any dependency steps required by your build"
+ 
+ machine:
+  environment:
+    foo: tralala
+ 
  test:
    override:
      - echo "More arbitrary bash"
