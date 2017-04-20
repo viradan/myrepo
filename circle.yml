@@ -1,6 +1,4 @@
  dependencies:
-   pre:
-     pip install --upgrade pip
    override:
      - echo "Add any bash commands you want here"
      - echo "Perform any dependency steps required by your build"
