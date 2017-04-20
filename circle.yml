@@ -4,10 +4,10 @@
      - echo "Perform any dependency steps required by your build"
  
  machine:
-  environment:
-    foo: tralala
-    post:
-      - pip install --upgrade pip
+   post:
+     - pip install --upgrade pip
+   environment:
+     foo: tralala
  
  test:
    override:
